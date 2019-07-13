@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/golang-migrate/migrate/v4"
+	"github.com/pzduniak/migrate"
 	"net/url"
 	"testing"
 )
@@ -18,9 +18,9 @@ import (
 )
 
 import (
-	dt "github.com/golang-migrate/migrate/v4/database/testing"
-	"github.com/golang-migrate/migrate/v4/dktesting"
-	_ "github.com/golang-migrate/migrate/v4/source/file"
+	dt "github.com/pzduniak/migrate/database/testing"
+	"github.com/pzduniak/migrate/dktesting"
+	_ "github.com/pzduniak/migrate/source/file"
 )
 
 const defaultPort = 3306

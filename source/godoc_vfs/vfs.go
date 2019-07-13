@@ -14,7 +14,7 @@ import (
 	"os"
 	"path"
 
-	"github.com/golang-migrate/migrate/v4/source"
+	"github.com/pzduniak/migrate/source"
 	"golang.org/x/tools/godoc/vfs"
 )
 

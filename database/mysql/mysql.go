@@ -21,8 +21,8 @@ import (
 )
 
 import (
-	"github.com/golang-migrate/migrate/v4"
-	"github.com/golang-migrate/migrate/v4/database"
+	"github.com/pzduniak/migrate"
+	"github.com/pzduniak/migrate/database"
 )
 
 func init() {

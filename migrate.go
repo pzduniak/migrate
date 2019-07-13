@@ -7,13 +7,14 @@ package migrate
 import (
 	"errors"
 	"fmt"
-	"github.com/hashicorp/go-multierror"
 	"os"
 	"sync"
 	"time"
 
-	"github.com/golang-migrate/migrate/v4/database"
-	"github.com/golang-migrate/migrate/v4/source"
+	"github.com/hashicorp/go-multierror"
+
+	"github.com/pzduniak/migrate/database"
+	"github.com/pzduniak/migrate/source"
 )
 
 // DefaultPrefetchMigrations sets the number of migrations to pre-read

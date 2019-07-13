@@ -7,9 +7,9 @@ import (
 )
 
 import (
-	"github.com/golang-migrate/migrate/v4"
-	dt "github.com/golang-migrate/migrate/v4/database/testing"
-	_ "github.com/golang-migrate/migrate/v4/source/file"
+	"github.com/pzduniak/migrate"
+	dt "github.com/pzduniak/migrate/database/testing"
+	_ "github.com/pzduniak/migrate/source/file"
 )
 
 import (
